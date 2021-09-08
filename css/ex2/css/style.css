@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h2,h3 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
