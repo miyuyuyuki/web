@@ -42,18 +42,42 @@
         .base {
             position: relative;
         }
+
+        .ab0 {
+            position: absolute;
+            z-index: 100;
+        }
+
+        .ab1 {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 10;
+        }
+
+        .ab2 {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            z-index: 1;
+        }
     </style>
 </head>
 <body>
     <div class="outside">
         <div class="inside red"></div>
         <div class="inside blue relative"></div>
-        <div class="inside green absolute"></div>
+        <div class="inside green"></div>
     </div>
     <div class="outside base">
         <div class="inside red"></div>
         <div class="inside blue relative"></div>
         <div class="inside green absolute"></div>
+    </div>
+    <div class="outside base">
+        <div class="inside red ab0"></div>
+        <div class="inside blue ab1"></div>
+        <div class="inside green ab2"></div>
     </div>
 </body>
 </html>
