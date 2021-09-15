@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+*, *::before,*::after {
+    box-sizing: border-box;
+    border-bottom: 5rem;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h2,h3 {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.inline-block{
+    display: inline-block;
+    width: 24%;
+    /* 垂直の位置ぞろえ */
+    vertical-align: top;
+}
+
+.inline-block>a{
+    display: block;
+    /* スマホ向け */
+    text-decoration:none;
+    text-align: center;
+    color: blue;
+}
+
+/*文字の大きさ */
+h1 {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+p{
+    line-height: 1.6rem;
+}
+
+.mb-1rem {
+    margin-bottom: 1rem;
+}
+
+/* flex コンテナの最小設定 */
+.flex {
+    display: flex;
+}
+/* flex コンテナの最小設定  */
+.item {
+    flex: auto;
+    width: 33%;
+}
